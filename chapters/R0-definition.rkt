@@ -1,7 +1,9 @@
 #lang racket
+(require racket/struct)
 
 (struct Int (value))
 (struct Prim (op arg*))
+(struct Var (x))
 
 ; Concrete Syntax:
 ;
