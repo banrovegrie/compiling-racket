@@ -2,7 +2,7 @@
 ;; Here, we shall discuss the following passes:
 ;;      - uniquify (rename)
 ;;      - remove complex operations (use let bindings)
-;;      - explicate control ()
+;;      - explicate control (make order of execution explicit)
 ;;
 ;; Explicate control results in a new language called C0.
 
